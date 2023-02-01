@@ -1,0 +1,62 @@
+*::selection {
+  user-select: none;
+}
+
+.container {
+  font-family: "Josefin Sans", sans-serif;
+  min-height: 470px;
+  border-radius: 20px;
+  padding: 30px 0px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/* Logo */
+.logo .logo-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.tab-list {
+  margin: 0px 0px 0px 20px;
+}
+
+.tab-panel-login,
+.tab-panel-signup {
+  margin: 10px 40px 0px 40px;
+}
+
+.tab-panel-signup Input {
+  /* margin: 0px 50% 0px 0px; */
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 20px;
+  outline: none;
+}
+
+.tab-panel-login .input {
+  /* margin: 0px 50% 0px 0px; */
+  font-size: 16px;
+  font-weight: 900;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input {
+  box-shadow: 8px 8px 11px 0px rgba(0, 123, 255, 0.151);
+}
+
+.tab-panel-signup Button {
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.tab-panel-login Button {
+  margin-top: 20px;
+  border-radius: 20px;
+}
